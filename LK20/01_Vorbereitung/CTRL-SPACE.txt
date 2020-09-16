@@ -4,7 +4,7 @@ http://www.mkyong.com/java/content-assist-ctrl-space-is-not-working-eclipse/
 
 Vermutlich hat sich bereits ein anderes Programm (Windows selber oder ein Programm, 
 was im Hintergund läuft) bereits die Tastenkombination <Strg>-<Lereichen> reserviert. 
-Und Eclipse sieht deswegen gar nichts mehr von diesem Tastaturereignis.
+Und Eclipse sieht deswegen gar nichts mehr von diesem Tastaturereignis. 
 
 Fall dir dazu etwas einfällt und du weißt, wie du dem anderen Programm abgewöhnen kannst 
 <Strg>-<Leerzeichen> abzufangen, dann hast du vermutlich eine Lösung für dein Problem.
