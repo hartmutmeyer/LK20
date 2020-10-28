@@ -97,7 +97,7 @@ public class Dialoge extends JFrame {
 		btnAufg8.setBounds(12, 271, 320, 25);
 		contentPane.add(btnAufg8);
 	}
-
+	
 	private void aufg1() {
 		// Aufgabe 1
 		
