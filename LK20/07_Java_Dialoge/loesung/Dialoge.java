@@ -146,11 +146,19 @@ public class Dialoge extends JFrame {
 		}
 	}
 
+	private boolean istGerade(int zahl) {
+		if (zahl % 2 == 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
 	private void aufg3() {
 		// Aufgabe 3
 		String text = JOptionPane.showInputDialog("Gib eine ganze Zahl ein");
 		int zahl = Integer.parseInt(text);
-		if (zahl % 2 == 0) {
+		if (istGerade(zahl)) {
 			JOptionPane.showMessageDialog(this, zahl + " ist gerade");
 		} else {
 			JOptionPane.showMessageDialog(this, zahl + " ist ungerade");
