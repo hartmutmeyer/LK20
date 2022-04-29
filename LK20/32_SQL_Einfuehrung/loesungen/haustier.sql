@@ -46,7 +46,7 @@ WHERE name = 'Harald';
 
 # Übung 1, Aufgabe 3
 # 3A) Zeige die gesamte Tabelle tier an.
-
+SELECT name FROM tier;
 
 # 3B) Zeige nur die Spalten name und tierart an.
 
