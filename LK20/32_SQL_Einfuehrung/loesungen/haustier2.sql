@@ -228,9 +228,17 @@ WHERE nachname = 'Anderson';
 # 3A) Zeige ohne Verwendung der WHERE-Klausel eine Tabelle mit allen Besitzern (Nachname 
 #     und Vorname) und Tieren (Name und Tierart) an. Was für eine Tabelle wird erstellt?
 
+SELECT nachname, vorname, name, tierart
+FROM tier, besitzer;
 
 # 3B) Zeige eine Liste mit allen Besitzern und den zu ihnen gehörenden Tieren an. Es sollen
 #     alle Spalten angezeigt werden.
+
+SELECT *
+FROM tier, besitzer, beziehung
+WHERE beziehung_besitzer_id = besitzer_id
+AND beziehung_tier_id = tier_besitzer_id 
+AND lebendig = 'ja';
 
 
 # 3C) Zeige eine Tabelle mit allen Besitzern (Nachname und Vorname) und ihren Tieren 
